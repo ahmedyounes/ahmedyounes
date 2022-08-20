@@ -1,4 +1,4 @@
-### Hi there 👋
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahmedyounes)](https://git.io/streak-stats)
 
 <!--
 **ahmedyounes/ahmedyounes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
