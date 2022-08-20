@@ -1,3 +1,5 @@
+![Cover Gif](https://github.com/ahmedyounes/ahmedyounes/blob/0476277761841edc077368a324d5b7e1bc42dac0/codemonkey.gif)
+<br />
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahmedyounes)](https://git.io/streak-stats)
 
 ![](https://komarev.com/ghpvc/?username=ahmedyounes)
