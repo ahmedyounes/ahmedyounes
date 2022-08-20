@@ -3,6 +3,8 @@
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahmedyounes)](https://git.io/streak-stats)
 
 ![](https://komarev.com/ghpvc/?username=ahmedyounes)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ahmedyounes&show_icons=true)
 <!--
 **ahmedyounes/ahmedyounes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
