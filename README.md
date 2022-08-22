@@ -1,5 +1,7 @@
 
 <div align="center">
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4PP25020PE835691LMMBRJWA)
   
   ![Cover Gif](https://github.com/ahmedyounes/ahmedyounes/blob/0476277761841edc077368a324d5b7e1bc42dac0/codemonkey.gif)
   
