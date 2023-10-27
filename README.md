@@ -3,9 +3,10 @@
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4PP25020PE835691LMMBRJWA)
   
-  ![Cover Gif](https://github.com/ahmedyounes/ahmedyounes/blob/0476277761841edc077368a324d5b7e1bc42dac0/codemonkey.gif)
+  ![myCover](https://github.com/ahmedyounes/ahmedyounes/assets/28989583/ea848210-7395-47b7-940f-6c4d9a6635ba)
   
 <br />
+
   
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahmedyounes)](https://git.io/streak-stats)
 
