@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Hero banner for GitHub profile README — Ahmed Younes
+  - Self-contained, SMIL animation only (no JS, no CSS keyframes, no external fonts/images).
+  - All text fully visible at rest (static first frame); animation is enhancement only.
+  - Monospace system stack so it degrades cleanly when rendered as <img> on github.com.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Ahmed Younes — Full-Stack &amp; Agentic Engineer">
+
+  <defs>
+    <!-- Background gradient: deep ink with a subtle darker vignette feel -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#090C10"/>
+    </linearGradient>
+
+    <!-- Radial vignette to focus the center and darken corners -->
+    <radialGradient id="vignette" cx="50%" cy="42%" r="75%">
+      <stop offset="0" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="1" stop-color="#05070A" stop-opacity="0.85"/>
+    </radialGradient>
+
+    <!-- Faint grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 L0 40" fill="none" stroke="#161B22" stroke-width="1"/>
+    </pattern>
+
+    <!-- Shimmer sweep gradient (a soft amber-tinted highlight band) -->
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0"    stop-color="#F4ECD8" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#F4ECD8" stop-opacity="0"/>
+      <stop offset="0.5"  stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#F4ECD8" stop-opacity="0"/>
+      <stop offset="1"    stop-color="#F4ECD8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Soft glow for accent elements -->
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip the shimmer band to the title text shape -->
+    <clipPath id="titleClip">
+      <text x="118" y="158"
+            font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace"
+            font-size="62" font-weight="700" letter-spacing="9">AHMED YOUNES</text>
+    </clipPath>
+  </defs>
+
+  <!-- ===================== BACKGROUND ===================== -->
+  <rect x="0" y="0" width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- Drifting faint background dots (very subtle ambient motion) -->
+  <g fill="#E3B341" opacity="0.10">
+    <circle cx="980" cy="70" r="2.4">
+      <animate attributeName="cy" values="70;58;70" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.06;0.16;0.06" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="120" r="1.8">
+      <animate attributeName="cy" values="120;132;120" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.05;0.14;0.05" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="210" r="2.1">
+      <animate attributeName="cy" values="210;198;210" dur="9.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.04;0.12;0.04" dur="9.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="235" r="1.6">
+      <animate attributeName="cy" values="235;246;235" dur="12.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.05;0.13;0.05" dur="12.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1015" cy="250" r="1.5">
+      <animate attributeName="cy" values="250;240;250" dur="10.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.04;0.11;0.04" dur="10.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Vignette on top of dots/grid so edges feel deep -->
+  <rect x="0" y="0" width="1200" height="300" fill="url(#vignette)"/>
+
+  <!-- Left accent rail -->
+  <rect x="40" y="60" width="3" height="180" rx="1.5" fill="#E3B341" opacity="0.55"/>
+
+  <!-- ===================== TEXT BLOCK ===================== -->
+
+  <!-- Terminal prompt flourish (understated) -->
+  <text x="118" y="78"
+        font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace"
+        font-size="17" letter-spacing="1.5" fill="#8B949E">
+    <tspan fill="#E3B341">~/ahmedyounes</tspan><tspan fill="#8B949E"> $ </tspan><tspan fill="#E3B341">&#9608;<animate attributeName="fill-opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;1;1" dur="1.1s" repeatCount="indefinite"/></tspan>
+  </text>
+
+  <!-- Primary title — FULLY VISIBLE at rest (opacity 1) -->
+  <text x="118" y="158"
+        font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace"
+        font-size="62" font-weight="700" letter-spacing="9" fill="#F4ECD8">AHMED YOUNES</text>
+
+  <!-- Shimmer sweep clipped to the title (one soft highlight passes across, then waits) -->
+  <g clip-path="url(#titleClip)">
+    <rect x="-520" y="100" width="520" height="80" fill="url(#shimmer)" opacity="0.55">
+      <!-- travel across the title, then hold off-canvas for the rest of the loop -->
+      <animate attributeName="x"
+               values="-520;-520;1200;1200"
+               keyTimes="0;0.45;0.78;1"
+               dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Tagline (amber) -->
+  <text x="120" y="200"
+        font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace"
+        font-size="25" font-weight="600" letter-spacing="2.5" fill="#E3B341">Full-Stack &amp; Agentic Engineer</text>
+
+  <!-- Animated accent underline: draws in once, then holds for the rest of the loop -->
+  <line x1="120" y1="216" x2="120" y2="216"
+        stroke="#E3B341" stroke-width="2.5" stroke-linecap="round"
+        opacity="0.8" filter="url(#softGlow)">
+    <animate attributeName="x2"
+             values="120;120;505;505"
+             keyTimes="0;0.08;0.42;1"
+             dur="8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Muted sub-line -->
+  <text x="120" y="244"
+        font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace"
+        font-size="15.5" letter-spacing="1" fill="#8B949E">Web<tspan fill="#5B6470"> &#183; </tspan>Mobile<tspan fill="#5B6470"> &#183; </tspan>Data<tspan fill="#5B6470"> &#183; </tspan>AI <tspan fill="#6E7681">&#8212; shipped end to end, solo</tspan></text>
+
+  <!-- ===================== CORNER TAG ===================== -->
+  <g opacity="0.85">
+    <!-- small location pin glyph -->
+    <path d="M939 38 c0 6 -7 12 -7 12 s-7 -6 -7 -12 a7 7 0 0 1 14 0 z"
+          fill="none" stroke="#8B949E" stroke-width="1.4"/>
+    <circle cx="932" cy="38" r="2.3" fill="#8B949E"/>
+    <text x="952" y="44"
+          font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace"
+          font-size="14" letter-spacing="1" fill="#8B949E"
+          text-anchor="start">Alexandria, Egypt</text>
+  </g>
+
+  <!-- Thin baseline rule for structure -->
+  <rect x="40" y="262" width="1120" height="1" fill="#1C2128"/>
+
+</svg>

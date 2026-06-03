@@ -1,34 +1,92 @@
+<div align="center">
+
+<img src="./assets/banner.svg" alt="Ahmed Younes — Full-Stack &amp; Agentic Engineer" width="100%" />
+
+### I design and ship complete production systems — web, mobile, data, and AI — end to end.
+
+10+ years turning ideas into shipped products. Solo founder &amp; engineer behind a 474K-line cloud-kitchen platform.
+
+<br/>
+
+![Experience](https://img.shields.io/badge/Experience-10%2B_years-E3B341?style=for-the-badge&labelColor=0D1117)
+![Codebase](https://img.shields.io/badge/Codebase-474K_LOC-E3B341?style=for-the-badge&labelColor=0D1117)
+![DB models](https://img.shields.io/badge/DB_models-200%2B-E3B341?style=for-the-badge&labelColor=0D1117)
+![Docker deploys](https://img.shields.io/badge/Docker_deploys-8-E3B341?style=for-the-badge&labelColor=0D1117)
+![E2E tests](https://img.shields.io/badge/E2E_tests-376-E3B341?style=for-the-badge&labelColor=0D1117)
+
+</div>
+
+---
+
+### 🧩 What I build
+
+- **Full-stack web platforms** — Next.js + NestJS, GraphQL, multi-tenant architecture
+- **Cross-platform mobile** — Flutter (Riverpod, GoRouter), PWA, 10-language i18n (RTL)
+- **Data &amp; ML / financial analytics** — Python, Pandas, scikit-learn, forecasting &amp; anomaly detection
+- **Real-time systems** — WebSockets, Redis pub/sub, live tracking, chat &amp; notifications
+- **AI &amp; agentic automation** — Claude / OpenAI / Gemini integrations, autonomous dev workflows
+- **Multi-region DevOps** — Docker, Nginx, CI/CD, end-to-end testing at scale
+
+### 🛠️ Tech
+
+**Backend**  
+![NestJS](https://img.shields.io/badge/NestJS-0D1117?style=for-the-badge&logo=nestjs&logoColor=E3B341)
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=E3B341)
+![Django](https://img.shields.io/badge/Django-0D1117?style=for-the-badge&logo=django&logoColor=E3B341)
+![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=E3B341)
+![GraphQL](https://img.shields.io/badge/GraphQL-0D1117?style=for-the-badge&logo=graphql&logoColor=E3B341)
+
+**Frontend**  
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=E3B341)
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=E3B341)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=E3B341)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=E3B341)
+
+**Mobile**  
+![Flutter](https://img.shields.io/badge/Flutter-0D1117?style=for-the-badge&logo=flutter&logoColor=E3B341)
+![Dart](https://img.shields.io/badge/Dart-0D1117?style=for-the-badge&logo=dart&logoColor=E3B341)
+
+**Data &amp; ML**  
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=E3B341)
+![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=E3B341)
+![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=E3B341)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=E3B341)
+
+**Data stores**  
+![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=E3B341)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=E3B341)
+![Redis](https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=E3B341)
+
+**Infra**  
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=E3B341)
+![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=for-the-badge&logo=nginx&logoColor=E3B341)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=E3B341)
+
+### 🚀 Selected work
+
+**[eatnshred](https://eatnshred.com) — Cloud-Kitchen SaaS Ecosystem**  
+Solo-architected 474K-line Next.js / NestJS monorepo: 200+ MongoDB models, 169 GraphQL schemas, real-time delivery across own-fleet + marketplace integrations (Talabat, Deliveroo, Noon Food), a full financial-analytics suite, an AI nutritionist, and companion Flutter apps — deployed across 8 Docker configurations in 2 regions.
+
+**FinSight — Financial Analytics Platform**  
+Django 5 / DRF / FastAPI + Pandas: transaction auto-categorization, spending-trend analysis with anomaly detection &amp; regression forecasting, Celery Beat schedules, and real-time alerts via Django Channels.
+
+**Agentic Dev Toolchain**  
+64 custom AI agents, 256 skills, and MCP servers powering autonomous development workflows — code generation, QA, and database operations at scale.
+
+### 📈 Currently
+
+Shipping production platforms end to end and pushing on **agentic engineering** — autonomous, AI-driven development workflows.
 
 <div align="center">
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4PP25020PE835691LMMBRJWA)
-  
-  ![myCover](https://github.com/ahmedyounes/ahmedyounes/assets/28989583/ea848210-7395-47b7-940f-6c4d9a6635ba)
-  
-<br />
+<br/>
 
-  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahmedyounes)](https://git.io/streak-stats)
+[![GitHub streak](https://streak-stats.demolab.com?user=ahmedyounes&theme=dark&hide_border=true&background=0D1117&stroke=21262D&ring=E3B341&fire=E3B341&currStreakNum=F4ECD8&currStreakLabel=E3B341&sideNums=F4ECD8&sideLabels=8B949E&dates=8B949E)](https://github.com/ahmedyounes)
 
-  
-![](https://komarev.com/ghpvc/?username=ahmedyounes)
+<br/>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ahmedyounes&show_icons=true&theme=radical)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=E3B341)](https://www.linkedin.com/in/ahmedyounes/)
+[![Website](https://img.shields.io/badge/ahmedyounes.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=E3B341)](https://ahmedyounes.com)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=E3B341)](mailto:cahmedc@gmail.com)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ahmedyounes&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)  
-  
 </div>
-<!--
-**ahmedyounes/ahmedyounes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
