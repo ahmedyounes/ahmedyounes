@@ -1,0 +1,58 @@
+name: Refresh streak card
+
+# Keeps assets/streak.svg current. The image is committed into the repo (not
+# fetched live by viewers), so it always renders — GitHub's Camo proxy only ever
+# has to fetch a static repo file, never the flaky streak service.
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily at 03:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-streak
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch and de-animate streak card
+        run: |
+          set -euo pipefail
+          URL="https://streak-stats.demolab.com?user=ahmedyounes&theme=dark&hide_border=true&background=0D1117&stroke=21262D&ring=E3B341&fire=E3B341&currStreakNum=F4ECD8&currStreakLabel=E3B341&sideNums=F4ECD8&sideLabels=8B949E&dates=8B949E"
+          mkdir -p assets
+          tmp="$(mktemp)"
+          ok=""
+          for i in 1 2 3 4 5; do
+            code="$(curl -sS -o "$tmp" -w '%{http_code}' --max-time 30 "$URL" || true)"
+            if [ "$code" = "200" ] && head -c 200 "$tmp" | grep -qi '<svg'; then ok=1; break; fi
+            echo "attempt $i failed (status ${code:-none}); retrying in 15s..."
+            sleep 15
+          done
+          if [ -z "$ok" ]; then
+            echo "streak service unavailable; keeping existing snapshot"
+            exit 0
+          fi
+          # Make all text visible at rest (drop opacity:0 fade-ins) so the card
+          # never renders blank for reduced-motion users or static renderers.
+          sed -i -E "s/ style='opacity: 0; animation: fadein 0\.5s linear forwards [0-9.]+s'//g; s/ style='animation: currstreak 0\.6s linear forwards'//g" "$tmp"
+          mv "$tmp" assets/streak.svg
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets/streak.svg; then
+            echo "no change"
+          else
+            git add assets/streak.svg
+            git commit -m "chore: refresh streak card"
+            git push
+          fi
