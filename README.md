@@ -81,12 +81,8 @@ Shipping production platforms end to end and pushing on **agentic engineering** 
 
 <br/>
 
-[![GitHub streak](https://streak-stats.demolab.com?user=ahmedyounes&theme=dark&hide_border=true&background=0D1117&stroke=21262D&ring=E3B341&fire=E3B341&currStreakNum=F4ECD8&currStreakLabel=E3B341&sideNums=F4ECD8&sideLabels=8B949E&dates=8B949E)](https://github.com/ahmedyounes)
-
-<br/>
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=E3B341)](https://www.linkedin.com/in/ahmedyounes/)
 [![Website](https://img.shields.io/badge/ahmedyounes.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=E3B341)](https://ahmedyounes.com)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=E3B341)](mailto:cahmedc@gmail.com)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=E3B341)](mailto:dev@ahmedyounes.com)
 
 </div>
