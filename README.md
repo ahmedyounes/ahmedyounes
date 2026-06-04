@@ -65,7 +65,7 @@
 ### 🚀 Selected work
 
 **[eatnshred](https://eatnshred.com) — Cloud-Kitchen SaaS Ecosystem**  
-Solo-architected 474K-line Next.js / NestJS monorepo: 200+ MongoDB models, 169 GraphQL schemas, real-time delivery across own-fleet + marketplace integrations (Talabat, Deliveroo, Noon Food), a full financial-analytics suite, an AI nutritionist, and companion Flutter apps — deployed across 28 Docker configurations in 4 regions.
+Solo-architected 474K-line Next.js / NestJS monorepo: 200+ MongoDB models, 169 GraphQL schemas, real-time delivery across own-fleet + marketplace integrations (Talabat, Deliveroo, Noon Food), a full financial-analytics suite, an AI nutritionist, and companion Flutter apps — deployed across 8 Docker configurations in 2 regions.
 
 **FinSight — Financial Analytics Platform**  
 Django 5 / DRF / FastAPI + Pandas: transaction auto-categorization, spending-trend analysis with anomaly detection &amp; regression forecasting, Celery Beat schedules, and real-time alerts via Django Channels.
