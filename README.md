@@ -4,15 +4,15 @@
 
 ### I design and ship complete production systems — web, mobile, data, and AI — end to end.
 
-10+ years turning ideas into shipped products. Solo founder &amp; engineer behind a 474K-line cloud-kitchen platform.
+10+ years turning ideas into shipped products. Solo founder &amp; engineer behind a million-line cloud-kitchen platform.
 
 <br/>
 
 ![Experience](https://img.shields.io/badge/Experience-10%2B_years-E3B341?style=for-the-badge&labelColor=0D1117)
-![Codebase](https://img.shields.io/badge/Codebase-474K_LOC-E3B341?style=for-the-badge&labelColor=0D1117)
-![DB models](https://img.shields.io/badge/DB_models-200%2B-E3B341?style=for-the-badge&labelColor=0D1117)
-![Docker deploys](https://img.shields.io/badge/Docker_deploys-8-E3B341?style=for-the-badge&labelColor=0D1117)
-![E2E tests](https://img.shields.io/badge/E2E_tests-376-E3B341?style=for-the-badge&labelColor=0D1117)
+![Codebase](https://img.shields.io/badge/Codebase-1M%2B_LOC-E3B341?style=for-the-badge&labelColor=0D1117)
+![DB models](https://img.shields.io/badge/DB_models-500%2B-E3B341?style=for-the-badge&labelColor=0D1117)
+![Docker deploys](https://img.shields.io/badge/Docker_deploys-50%2B-E3B341?style=for-the-badge&labelColor=0D1117)
+![E2E tests](https://img.shields.io/badge/E2E_tests-700%2B-E3B341?style=for-the-badge&labelColor=0D1117)
 
 </div>
 
@@ -65,7 +65,7 @@
 ### 🚀 Selected work
 
 **[eatnshred](https://eatnshred.com) — Cloud-Kitchen SaaS Ecosystem**  
-Solo-architected 474K-line Next.js / NestJS monorepo: 200+ MongoDB models, 169 GraphQL schemas, real-time delivery across own-fleet + marketplace integrations (Talabat, Deliveroo, Noon Food), a full financial-analytics suite, an AI nutritionist, and companion Flutter apps — deployed across 8 Docker configurations in 2 regions.
+Solo-architected a million-line Next.js / NestJS monorepo: 500+ MongoDB models, 169 GraphQL schemas, real-time delivery across own-fleet + marketplace integrations (Talabat, Deliveroo, Noon Food), a full financial-analytics suite, an AI nutritionist, and companion Flutter apps — deployed across 50+ Docker configurations in 2 regions.
 
 **FinSight — Financial Analytics Platform**  
 Django 5 / DRF / FastAPI + Pandas: transaction auto-categorization, spending-trend analysis with anomaly detection &amp; regression forecasting, Celery Beat schedules, and real-time alerts via Django Channels.
