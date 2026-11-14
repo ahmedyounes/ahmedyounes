@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Ahmed Younes — Full-Stack &amp; Agentic Engineer" width="100%" />
+<img src="./assets/banner.svg" alt="Ahmed Younes — Solopreneur &amp; Forward-Deployed Engineer" width="100%" />
 
-### I design and ship complete production systems — web, mobile, data, and AI — end to end.
+### I embed with your team, find the real problem, and ship the system that solves it — web, mobile, data, and AI, end to end.
 
-10+ years turning ideas into shipped products. Solo founder &amp; engineer behind a million-line cloud-kitchen platform.
+Vet → founder → engineer. 10+ years turning ideas into shipped products. Solo founder &amp; engineer behind a million-line cloud-kitchen platform.
 
 <br/>
 
@@ -18,6 +18,37 @@
 
 ---
 
+### 🧭 How I work — forward-deployed
+
+```text
+embed ──▶ map ──▶ build ──▶ ship ──▶ hand over
+```
+
+| Step | What happens |
+|---|---|
+| **1 · Embed** | Sit with the people who run the operation — kitchen, clinic, finance desk — until the real bottleneck is obvious. |
+| **2 · Map** | Turn the messy workflow into data models, business rules, and a scope that fits the budget. |
+| **3 · Build** | Agentic, AI-assisted development: a working system in days, not quarters. |
+| **4 · Ship** | Production-grade — tests, CI/CD, Docker, monitoring, Arabic/RTL from day one. |
+| **5 · Hand over** | Docs, training, and code your team can own after I leave. |
+
+### 🐾 The path
+
+I started as a **veterinarian running my own clinics**, moved through pharma and medical-equipment companies, then built **Vet Med Tech** — animal-identification systems for the Dubai government. That's where I learned the forward-deployed job before it had a name: go on-site, learn the domain, ship the system.
+
+Since then: **[eatnshred](https://eatnshred.com)** (health-food ecosystem), **Macroski** (multi-tenant ERP for food brands), and **starmakkah** — my AI-solutions base for MENA &amp; Gulf teams.
+
+### 🚀 Selected work
+
+**[eatnshred](https://eatnshred.com) — Cloud-Kitchen SaaS Ecosystem**  
+Solo-architected a million-line Next.js / NestJS monorepo: 500+ MongoDB models, 169 GraphQL schemas, real-time delivery across own-fleet + marketplace integrations (Talabat, Deliveroo, Noon Food), a full financial-analytics suite, an AI nutritionist, and companion Flutter apps — deployed across 50+ Docker configurations in 2 regions.
+
+**FinSight — Financial Analytics Platform**  
+Django 5 / DRF / FastAPI + Pandas: transaction auto-categorization, spending-trend analysis with anomaly detection &amp; regression forecasting, Celery Beat schedules, and real-time alerts via Django Channels.
+
+**Agentic Dev Toolchain**  
+64 custom AI agents, 256 skills, and MCP servers powering autonomous development workflows — code generation, QA, and database operations at scale.
+
 ### 🧩 What I build
 
 - **Full-stack web platforms** — Next.js + NestJS, GraphQL, multi-tenant architecture
@@ -29,7 +60,21 @@
 - **Embedded &amp; IoT** — firmware on microcontrollers (C/C++, Arduino, ESP32, Raspberry Pi), device integration
 - **Security** — auth (OAuth, JWT, OTP/MFA, RBAC), AppSec &amp; OWASP, penetration testing, TLS &amp; secrets hardening
 
-### 🛠️ Tech
+### 🛠️ Core stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=E3B341)
+![NestJS](https://img.shields.io/badge/NestJS-0D1117?style=for-the-badge&logo=nestjs&logoColor=E3B341)
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=E3B341)
+![Flutter](https://img.shields.io/badge/Flutter-0D1117?style=for-the-badge&logo=flutter&logoColor=E3B341)
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=E3B341)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=E3B341)
+![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=E3B341)
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=E3B341)
+![Claude](https://img.shields.io/badge/Claude-0D1117?style=for-the-badge&logo=claude&logoColor=E3B341)
+
+<details>
+<summary><b>Full toolbox</b></summary>
+<br/>
 
 **Backend**  
 ![NestJS](https://img.shields.io/badge/NestJS-0D1117?style=for-the-badge&logo=nestjs&logoColor=E3B341)
@@ -83,20 +128,11 @@
 ![JWT](https://img.shields.io/badge/JWT-0D1117?style=for-the-badge&logo=jsonwebtokens&logoColor=E3B341)
 ![TLS](https://img.shields.io/badge/TLS-0D1117?style=for-the-badge&logo=letsencrypt&logoColor=E3B341)
 
-### 🚀 Selected work
-
-**[eatnshred](https://eatnshred.com) — Cloud-Kitchen SaaS Ecosystem**  
-Solo-architected a million-line Next.js / NestJS monorepo: 500+ MongoDB models, 169 GraphQL schemas, real-time delivery across own-fleet + marketplace integrations (Talabat, Deliveroo, Noon Food), a full financial-analytics suite, an AI nutritionist, and companion Flutter apps — deployed across 50+ Docker configurations in 2 regions.
-
-**FinSight — Financial Analytics Platform**  
-Django 5 / DRF / FastAPI + Pandas: transaction auto-categorization, spending-trend analysis with anomaly detection &amp; regression forecasting, Celery Beat schedules, and real-time alerts via Django Channels.
-
-**Agentic Dev Toolchain**  
-64 custom AI agents, 256 skills, and MCP servers powering autonomous development workflows — code generation, QA, and database operations at scale.
+</details>
 
 ### 📈 Currently
 
-Shipping production platforms end to end and pushing on **agentic engineering** — autonomous, AI-driven development workflows.
+Working forward-deployed through **starmakkah**, building **Macroski**, and pushing on **agentic engineering** — autonomous, AI-driven development workflows.
 
 <div align="center">
 
@@ -106,6 +142,8 @@ Shipping production platforms end to end and pushing on **agentic engineering** 
 
 <br/>
 <br/>
+
+**Have a problem worth embedding for?**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=E3B341)](https://www.linkedin.com/in/ahmedyounes/)
 [![Website](https://img.shields.io/badge/ahmedyounes.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=E3B341)](https://ahmedyounes.com)
